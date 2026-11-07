@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    }
+    html{
+        min-height: 100%;}
+    body{
+        min-height: 100vh;
+        background-image: linear-gradient(135deg,#9ccca6,#5ec031,#9ccca6, #646efc,#9ccca6,#9e218d,#9ccca6);
+        background-size: 400% 400%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        animation: fanimado 20s infinite;
+    }
+    .texto{
+    color: white;
+    text-align: center;
+    margin: 300px 0;
+    font-size: 28px;
+    
+    }
+    @keyframes fanimado {
+    0%{
+    background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50% ;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+    }
+@import url('https://fonts.googleapis.com/css2?family=Aguafina+Script&display=swap');
+.h1{ 
+    font-family:"AguaFina Script", sans-serif;
+}
+
+.banner {
+    width: 100%;
+    height: 300px; 
+    background-image: url(img_luna.jpg);
+    background-size: cover;      
+    background-position: center; 
+    background-repeat: no-repeat;
+  }
+
+  .banner2 {
+    width: 100%;
+    height: 300px; 
+    background-image: url(rdv.img.jpg);
+    background-size: cover;      
+    background-position: center; 
+    background-repeat: no-repeat;
+  }
+
+
+  .banner3 {
+    width: 100%;
+    height: 300px; 
+    background-image: url(rz.img);
+    background-size: cover;      
+    background-position: center; 
+    background-repeat: no-repeat;
+  }
+
+
